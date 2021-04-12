@@ -1,0 +1,15 @@
+[local_hpfeeds]
+ident =
+secret =
+hp_host = hpfeeds3
+hp_port = 10000
+owner = chn
+channels = amun.events,conpot.events,thug.events,beeswarm.hive,dionaea.capture,thug.files,beeswarm.feeder,cuckoo.analysis,kippo.sessions,cowrie.sessions,glastopf.events,glastopf.files,mwbinary.dionaea.sensorunique,wordpot.events,shockpot.events,p0f.events,suricata.events,elastichoney.events,rdphoney.sessions,uhp.events,elasticpot.events,spylex.events
+ignore_cidr = 10.0.0.0/8
+
+[remote_hpfeeds]
+ident =
+secret =
+hp_host = remote-hpfeeds
+hp_port = 20000
+owner = chn
