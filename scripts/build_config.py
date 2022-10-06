@@ -28,7 +28,7 @@ def main():
     LOCAL_HPFEEDS_IDENT = os.environ.get("LOCAL_HPFEEDS_IDENT", "")
     LOCAL_HPFEEDS_SECRET = os.environ.get("LOCAL_HPFEEDS_SECRET", "")
     LOCAL_HPFEEDS_CHANNELS = os.environ.get("LOCAL_HPFEEDS_CHANNELS",
-                                            "amun.events,conpot.events,thug.events,beeswarm.hive,dionaea.capture,dionaea.connections,thug.files,beeswarm.feeder,cuckoo.analysis,kippo.sessions,cowrie.sessions,glastopf.events,glastopf.files,mwbinary.dionaea.sensorunique,snort.alerts,wordpot.events,p0f.events,suricata.events,shockpot.events,elastichoney.events,rdphoney.sessions,uhp.events,elasticpot.events,spylex.events")
+                                            "amun.events,conpot.events,thug.events,beeswarm.hive,dionaea.capture,dionaea.connections,thug.files,beeswarm.feeder,cuckoo.analysis,kippo.sessions,cowrie.sessions,glastopf.events,glastopf.files,mwbinary.dionaea.sensorunique,snort.alerts,wordpot.events,p0f.events,suricata.events,shockpot.events,elastichoney.events,rdphoney.sessions,uhp.events,elasticpot.events,spylex.events,chn-registrar.events")
 
     REMOTE_HPFEEDS_HOST = os.environ.get("REMOTE_HPFEEDS_HOST", "hpfeeds3")
     REMOTE_HPFEEDS_PORT = os.environ.get("REMOTE_HPFEEDS_PORT", "10000")
